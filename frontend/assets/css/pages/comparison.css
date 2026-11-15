@@ -1,0 +1,113 @@
+/* Regional comparison (/comparison). */
+
+.comparison-tool {
+  margin-top: 24px;
+}
+.comparison-controls {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+.comparison-controls label {
+  margin: 0;
+}
+.comparison-empty {
+  min-height: 440px;
+  margin-top: 14px;
+}
+.comparison-empty svg {
+  color: var(--cyan);
+}
+.error-banner {
+  margin-top: 12px;
+  padding: 16px;
+  color: var(--danger);
+  border: 1px solid rgba(255, 140, 130, 0.3);
+  border-radius: 10px;
+  background: rgba(255, 140, 130, 0.06);
+  font-size: 14px;
+}
+.comparison-results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+.comparison-region {
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+.comparison-region-title > span {
+  color: var(--cyan);
+  font: 700 11px 'DM Mono';
+}
+.comparison-region-title h2 {
+  margin: 6px 0;
+  font-size: 26px;
+}
+.comparison-region-title p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+.mini-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.mini-stats div {
+  padding: 14px;
+  border-right: 1px solid var(--line);
+}
+.mini-stats div:last-child {
+  border: 0;
+}
+.mini-stats small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+}
+.mini-stats strong {
+  display: block;
+  margin-top: 6px;
+  font: 600 14px 'DM Mono';
+}
+.comparison-chart {
+  height: 320px;
+}
+.comparison-verdict {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  align-items: center;
+  gap: 25px;
+  padding: 26px;
+  border: 1px solid var(--line-bright);
+  border-radius: 12px;
+  background: var(--panel);
+}
+.comparison-verdict span {
+  color: var(--muted);
+  font-size: 13px;
+}
+.comparison-verdict strong {
+  color: var(--cyan);
+  font: 700 22px 'DM Mono';
+}
+.comparison-verdict p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}

@@ -1,0 +1,18 @@
+/* About page (/about) in #1B365D & #005A9C — Minimalist single-paragraph layout. */
+
+.about-manifesto {
+  max-width: 920px;
+  margin: 36px 0;
+  padding: 40px 44px;
+  border: 2px solid var(--line-bright);
+  border-radius: 16px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+.about-manifesto > p {
+  margin: 0;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.75;
+  font-weight: 500;
+}

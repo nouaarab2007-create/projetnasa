@@ -1,0 +1,75 @@
+/* Source catalogue (/sources) — Minimalist list with source name and Official documentation link side by side. */
+
+.source-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 28px 0;
+}
+
+.source-card {
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 26px;
+  border: 1.5px solid var(--line-bright);
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: var(--shadow);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.source-card:hover {
+  transform: translateY(-2px);
+  border-color: #FC3D21;
+  box-shadow: 0 12px 28px rgba(11, 61, 145, 0.14);
+}
+
+.source-card h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 800;
+  color: #0B3D91;
+}
+
+.source-card > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 8px 16px;
+  border: 1.5px solid var(--line-bright);
+  border-radius: 999px;
+  background: var(--bg-2);
+  color: #0B3D91;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.source-card > a svg {
+  color: #FC3D21;
+  transition: color 0.2s ease;
+}
+
+.source-card > a:hover {
+  color: #ffffff;
+  border-color: #0B3D91;
+  background: #0B3D91;
+}
+
+.source-card > a:hover svg {
+  color: #ffffff;
+}
+
+.source-connection {
+  flex: 1 1 220px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}

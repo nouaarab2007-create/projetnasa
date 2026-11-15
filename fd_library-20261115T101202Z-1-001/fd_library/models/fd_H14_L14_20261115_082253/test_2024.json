@@ -1,0 +1,23 @@
+{
+ "event_rate": 0.0444,
+ "PR_AUC": 0.3681,
+ "ROC_AUC": 0.9196,
+ "Brier": 0.03394,
+ "PR_AUC_95CI": [
+  0.2946,
+  0.4424
+ ],
+ "n_rows": 18413,
+ "n_positive_rows": 817,
+ "climatology": {
+  "event_rate": 0.0444,
+  "PR_AUC": 0.166,
+  "ROC_AUC": 0.7828,
+  "Brier": 0.03989
+ },
+ "soil_percentile_heuristic": {
+  "event_rate": 0.0444,
+  "PR_AUC": 0.0886,
+  "ROC_AUC": 0.7348
+ }
+}

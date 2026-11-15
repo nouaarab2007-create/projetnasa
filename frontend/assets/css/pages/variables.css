@@ -1,0 +1,107 @@
+/* Variable catalogue (/variables) in NASA Blue (#0B3D91) & NASA Red (#FC3D21) with compact white cards. */
+
+.catalogue-tools {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 26px 0;
+}
+.search-field {
+  width: 340px;
+  position: relative;
+}
+.search-field svg {
+  position: absolute;
+  left: 13px;
+  top: 14px;
+  color: var(--muted);
+}
+.search-field input {
+  padding-left: 40px;
+  background: #ffffff;
+}
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: end;
+}
+.filter-tabs button,
+.source-filters button {
+  padding: 9px 16px;
+  border: 1.5px solid var(--line-bright);
+  border-radius: 10px;
+  color: var(--muted);
+  background: #ffffff;
+  font-size: 13.5px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+.filter-tabs button.active,
+.source-filters button.active {
+  color: #ffffff;
+  border-color: #0B3D91;
+  background: #0B3D91;
+  box-shadow: 0 4px 14px rgba(11, 61, 145, 0.22);
+}
+.variable-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.variable-card {
+  min-height: auto;
+  position: relative;
+  padding: 18px 20px;
+  border: 1.5px solid var(--line-bright);
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: var(--shadow);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.variable-card:hover {
+  transform: translateY(-4px);
+  border-color: #FC3D21;
+  box-shadow: 0 14px 32px rgba(11, 61, 145, 0.15);
+}
+.variable-card.selected {
+  border-color: #FC3D21;
+  box-shadow:
+    inset 0 0 0 1.5px #FC3D21,
+    0 12px 28px rgba(11, 61, 145, 0.16);
+}
+.variable-card > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.code {
+  color: #FC3D21;
+  font: 800 13.5px 'DM Mono';
+}
+.variable-card h3 {
+  margin: 8px 0 10px;
+  font-size: 18.5px;
+  font-weight: 800;
+  color: #0B3D91;
+}
+.variable-card dl {
+  margin: 0;
+}
+.variable-card dl div {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0;
+  border-top: 1.5px solid var(--line);
+  font-size: 13.5px;
+}
+.variable-card dt {
+  color: var(--muted);
+  font-weight: 600;
+}
+.variable-card dd {
+  margin: 0;
+  font-weight: 700;
+  text-align: right;
+  color: #0B3D91;
+}

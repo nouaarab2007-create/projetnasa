@@ -1,0 +1,336 @@
+/* Site header, NASA logo, navigation, page shells, page hero and social footer (#0B3D91 & #FC3D21). */
+
+.site-header {
+  height: 82px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 0 clamp(22px, 3.5vw, 56px);
+  border-bottom: 1.5px solid var(--line-bright);
+  background: color-mix(in srgb, var(--panel) 92%, transparent);
+  backdrop-filter: blur(22px);
+  transition: box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+.site-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0B3D91, #FC3D21, #0B3D91);
+  opacity: 0.95;
+}
+.site-header.is-scrolled {
+  box-shadow: var(--shadow);
+  border-bottom-color: #0B3D91;
+  background: color-mix(in srgb, var(--panel) 97%, transparent);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: max-content;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  transition: transform 0.2s ease;
+}
+.brand:hover {
+  transform: translateY(-1px);
+}
+.brand strong {
+  color: #FC3D21;
+}
+.project-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-width: max-content;
+}
+.project-logo strong {
+  color: #FC3D21;
+}
+.nasa-badge-logo {
+  width: 52px;
+  height: 44px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+  filter: drop-shadow(0 3px 8px rgba(11, 61, 145, 0.22));
+  transition: transform 0.25s ease;
+}
+.brand:hover .nasa-badge-logo {
+  transform: scale(1.06);
+}
+.project-logo-mark {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  color: #0B3D91;
+  border: 2px solid #0B3D91;
+  background: var(--panel);
+  box-shadow:
+    inset 0 0 20px rgba(11, 61, 145, 0.14),
+    0 4px 14px rgba(11, 61, 145, 0.16);
+  flex-shrink: 0;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.brand:hover .project-logo-mark {
+  transform: scale(1.06);
+  border-color: #FC3D21;
+  box-shadow: 0 0 20px rgba(252, 61, 33, 0.32);
+}
+.project-logo-mark > svg {
+  width: 21px;
+  height: 21px;
+}
+.project-logo-mark .logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.68);
+  display: block;
+}
+.project-logo-mark .logo-img-dark {
+  display: none;
+}
+.project-logo-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.project-logo-copy > span {
+  font-size: 16.5px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1.1;
+  color: #0B3D91;
+}
+.project-logo-copy small {
+  color: var(--muted);
+  font: 600 9.5px/1 'DM Mono';
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.main-nav a {
+  position: relative;
+  padding: 4px 18px;
+  border: 0;
+  border-right: 1.5px solid var(--line-bright);
+  border-radius: 0;
+  color: var(--muted);
+  background: transparent;
+  font-size: 14.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  transition: color 0.2s ease;
+}
+.main-nav a:last-child {
+  border-right: 0;
+  padding-right: 0;
+}
+.main-nav a:hover {
+  color: #FC3D21;
+  background: transparent;
+}
+.main-nav a.active {
+  color: #0B3D91;
+  font-weight: 800;
+  background: transparent;
+  box-shadow: none;
+}
+.main-nav a.active::after {
+  display: none;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-button {
+  min-width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 12px;
+  border: 1.5px solid var(--line-bright);
+  border-radius: 999px;
+  color: var(--text);
+  background: var(--panel);
+  font-size: 11.5px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+.icon-button:hover {
+  color: #FC3D21;
+  border-color: #FC3D21;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(11, 61, 145, 0.16);
+}
+.menu-button {
+  display: none;
+}
+
+.section-shell,
+.page-shell {
+  width: min(1440px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.page-shell {
+  padding-bottom: 100px;
+}
+.page-hero {
+  min-height: 120px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 28px 0 22px;
+  border-bottom: 1.5px solid var(--line-bright);
+}
+.page-hero > div {
+  max-width: 980px;
+}
+.page-hero h1 {
+  margin: 0;
+  font-size: clamp(40px, 5.2vw, 66px);
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -0.045em;
+  color: #0B3D91;
+}
+.page-hero p {
+  max-width: 820px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+/* Professional Multi-Column Dark Navy Footer (EquiMap style with NASA Logo & NASA Data attribution) */
+.site-footer {
+  position: relative;
+  padding: 64px clamp(28px, 5vw, 72px);
+  border-top: 3px solid #FC3D21;
+  color: #8fa4c4;
+  background: #081226;
+}
+.site-footer::before {
+  display: none;
+}
+.footer-inner.footer-columns-layout {
+  width: min(1320px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(260px, 340px) 1fr;
+  align-items: start;
+  gap: clamp(40px, 6vw, 96px);
+}
+.footer-brand-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+.footer-brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.footer-nasa-logo {
+  width: 52px;
+  height: 44px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+.footer-brand-desc {
+  margin: 0;
+  color: #8fa4c4;
+  font-size: 14.5px;
+  line-height: 1.65;
+  max-width: 310px;
+}
+.footer-brand-desc strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+.footer-social-squares {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+.social-square {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #162238;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #9cb1d1;
+  transition: all 0.2s ease;
+}
+.social-square:hover {
+  color: #ffffff;
+  background: #0B3D91;
+  border-color: #FC3D21;
+  transform: translateY(-2px);
+}
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(24px, 3.5vw, 48px);
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.footer-col h4 {
+  margin: 0 0 4px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.footer-col a {
+  color: #8fa4c4;
+  font-size: 14.5px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.footer-col a:hover {
+  color: #ffffff;
+}

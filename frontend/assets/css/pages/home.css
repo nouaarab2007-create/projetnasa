@@ -1,0 +1,136 @@
+/* Home page: hero, Investigate CTA button, and Earth visual in NASA Blue (#0B3D91) & NASA Red (#FC3D21). */
+
+.home-hero {
+  position: relative;
+  min-height: 680px;
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  align-items: center;
+  overflow: hidden;
+  padding: 64px clamp(24px, 7vw, 112px) 84px;
+  border-bottom: 1.5px solid var(--line-bright);
+}
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.28;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: linear-gradient(to right, #000, transparent 82%);
+}
+.hero-copy {
+  position: relative;
+  z-index: 2;
+  max-width: 780px;
+  animation: fadeUpIn 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-copy h1 {
+  max-width: 780px;
+  margin: 0;
+  font-size: clamp(56px, 6.2vw, 96px);
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+  font-weight: 800;
+  color: #0B3D91;
+}
+.hero-copy h1 em {
+  color: #FC3D21;
+  font-style: normal;
+  text-shadow: 0 8px 34px rgba(252, 61, 33, 0.24);
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 34px;
+}
+.hero-actions .button.primary {
+  min-height: 56px;
+  padding: 0 34px;
+  font-size: 16.5px;
+  border-radius: 999px;
+}
+.earth-visual {
+  min-height: 580px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  animation: fadeUpIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both;
+}
+.earth-image {
+  width: min(40vw, 540px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-image:
+    linear-gradient(125deg, transparent 40%, rgba(11, 61, 145, 0.25)), url('../../images/earth.jpg');
+  background-position: center;
+  background-size: cover;
+  box-shadow:
+    -35px 0 75px rgba(11, 61, 145, 0.34),
+    inset 30px -10px 50px rgba(0, 0, 0, 0.65),
+    0 0 0 2.5px rgba(11, 61, 145, 0.55);
+  filter: saturate(1.05) contrast(1.08);
+  animation: earth-pulse 7s ease-in-out infinite alternate;
+}
+@keyframes earth-pulse {
+  from {
+    box-shadow:
+      -35px 0 70px rgba(11, 61, 145, 0.28),
+      inset 30px -10px 50px rgba(0, 0, 0, 0.65),
+      0 0 0 2px rgba(11, 61, 145, 0.45);
+  }
+  to {
+    box-shadow:
+      -42px 0 95px rgba(252, 61, 33, 0.28),
+      inset 30px -10px 50px rgba(0, 0, 0, 0.58),
+      0 0 0 2.5px rgba(252, 61, 33, 0.65);
+  }
+}
+.orbit {
+  position: absolute;
+  width: 115%;
+  aspect-ratio: 1;
+  border: 1.5px solid rgba(11, 61, 145, 0.38);
+  border-radius: 50%;
+  transform: rotate(20deg) scaleY(0.52);
+  pointer-events: none;
+}
+.orbit-one {
+  animation: orbit-sway-one 14s ease-in-out infinite alternate;
+}
+.orbit-one span {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 13%;
+  top: 22%;
+  border-radius: 50%;
+  background: #FC3D21;
+  box-shadow: 0 0 20px #FC3D21;
+}
+.orbit-two {
+  width: 90%;
+  transform: rotate(-35deg) scaleY(0.6);
+  border-color: rgba(252, 61, 33, 0.45);
+  border-style: dashed;
+  animation: orbit-sway-two 18s ease-in-out infinite alternate;
+}
+@keyframes orbit-sway-one {
+  from {
+    transform: rotate(18deg) scaleY(0.52);
+  }
+  to {
+    transform: rotate(26deg) scaleY(0.55);
+  }
+}
+@keyframes orbit-sway-two {
+  from {
+    transform: rotate(-37deg) scaleY(0.6);
+  }
+  to {
+    transform: rotate(-28deg) scaleY(0.63);
+  }
+}

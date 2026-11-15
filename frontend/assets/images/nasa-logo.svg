@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" role="img" aria-label="NASA Logo">
+  <defs>
+    <linearGradient id="nasaBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B3D91" />
+      <stop offset="100%" stop-color="#061F4A" />
+    </linearGradient>
+  </defs>
+  <!-- Blue Sphere -->
+  <circle cx="60" cy="50" r="44" fill="url(#nasaBlueGrad)" />
+  <!-- Stars -->
+  <g fill="#FFFFFF">
+    <circle cx="34" cy="24" r="1.1" />
+    <circle cx="42" cy="19" r="0.8" />
+    <circle cx="48" cy="26" r="1.0" />
+    <circle cx="29" cy="33" r="0.9" />
+    <circle cx="78" cy="22" r="1.2" />
+    <circle cx="85" cy="29" r="0.9" />
+    <circle cx="72" cy="28" r="0.8" />
+    <circle cx="36" cy="74" r="1.1" />
+    <circle cx="45" cy="79" r="0.9" />
+    <circle cx="74" cy="76" r="1.2" />
+    <circle cx="83" cy="70" r="0.9" />
+    <circle cx="66" cy="82" r="0.8" />
+  </g>
+  <!-- White Orbit Ring (back segment) -->
+  <ellipse cx="60" cy="50" rx="52" ry="15" transform="rotate(-26 60 50)" fill="none" stroke="#FFFFFF" stroke-width="2.2" opacity="0.95" />
+  <!-- Red Vector Wing (NASA Chevron) -->
+  <path d="M 14 68 C 36 52, 62 32, 108 16 C 78 36, 56 54, 42 78 C 52 55, 68 40, 96 24 C 66 42, 42 56, 14 68 Z" fill="#FC3D21" />
+  <path d="M 24 64 Q 62 40 105 17 Q 68 44 48 82 L 42 79 Q 58 49 90 26 Q 55 47 24 64 Z" fill="#FC3D21" />
+  <!-- NASA Typography -->
+  <text x="60" y="57" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', 'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="25" letter-spacing="2.5">NASA</text>
+</svg>

@@ -1,0 +1,112 @@
+{
+ "models": {
+  "fd_H7_L30_20261115_082111": {
+   "H": 7,
+   "L": 30,
+   "created": "2026-11-15T08:21:25Z",
+   "val_PR_AUC": 0.4253475056691253,
+   "algorithm": "lightgbm",
+   "test_done": true,
+   "test": {
+    "event_rate": 0.0229,
+    "PR_AUC": 0.4401,
+    "ROC_AUC": 0.9617,
+    "Brier": 0.01588,
+    "PR_AUC_95CI": [
+     0.3579,
+     0.5398
+    ],
+    "n_rows": 18797,
+    "n_positive_rows": 431,
+    "climatology": {
+     "event_rate": 0.0229,
+     "PR_AUC": 0.0936,
+     "ROC_AUC": 0.7616,
+     "Brier": 0.02165
+    },
+    "soil_percentile_heuristic": {
+     "event_rate": 0.0229,
+     "PR_AUC": 0.074,
+     "ROC_AUC": 0.7907
+    }
+   }
+  },
+  "fd_H14_L14_20261115_082253": {
+   "H": 14,
+   "L": 14,
+   "created": "2026-11-15T08:23:06Z",
+   "val_PR_AUC": 0.33684180915289236,
+   "algorithm": "lightgbm",
+   "test_done": true,
+   "test": {
+    "event_rate": 0.0444,
+    "PR_AUC": 0.3681,
+    "ROC_AUC": 0.9196,
+    "Brier": 0.03394,
+    "PR_AUC_95CI": [
+     0.2946,
+     0.4424
+    ],
+    "n_rows": 18413,
+    "n_positive_rows": 817,
+    "climatology": {
+     "event_rate": 0.0444,
+     "PR_AUC": 0.166,
+     "ROC_AUC": 0.7828,
+     "Brier": 0.03989
+    },
+    "soil_percentile_heuristic": {
+     "event_rate": 0.0444,
+     "PR_AUC": 0.0886,
+     "ROC_AUC": 0.7348
+    }
+   }
+  },
+  "fd_H30_L14_20261115_082422": {
+   "H": 30,
+   "L": 14,
+   "created": "2026-11-15T08:24:35Z",
+   "val_PR_AUC": 0.3552219245080268,
+   "algorithm": "lightgbm",
+   "test_done": true,
+   "test": {
+    "event_rate": 0.0883,
+    "PR_AUC": 0.3729,
+    "ROC_AUC": 0.8572,
+    "Brier": 0.06666,
+    "PR_AUC_95CI": [
+     0.3,
+     0.4809
+    ],
+    "n_rows": 17548,
+    "n_positive_rows": 1550,
+    "climatology": {
+     "event_rate": 0.0883,
+     "PR_AUC": 0.2887,
+     "ROC_AUC": 0.7786,
+     "Brier": 0.0727
+    },
+    "soil_percentile_heuristic": {
+     "event_rate": 0.0883,
+     "PR_AUC": 0.1278,
+     "ROC_AUC": 0.6662
+    }
+   }
+  }
+ },
+ "active": {
+  "H7": "fd_H7_L30_20261115_082111",
+  "H14": "fd_H14_L14_20261115_082253",
+  "H30": "fd_H30_L14_20261115_082422"
+ },
+ "regions": {
+  "point_32.22_-7.95": {
+   "lat": 32.22,
+   "lon": -7.95,
+   "baseline_only": true,
+   "created": "2026-11-15T09:59:59Z"
+  }
+ },
+ "created": "2026-11-15T09:57:37Z",
+ "exported_from": "2026-11-15T08:07:33Z"
+}

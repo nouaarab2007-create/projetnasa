@@ -1,0 +1,32 @@
+/* 404 page — mirrors the Tailwind utilities used by the original not-found page. */
+
+.not-found {
+  max-width: 42rem;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.not-found h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+.not-found p {
+  margin-top: 1rem;
+  color: oklch(44.2% 0.017 285.786);
+}
+.not-found a {
+  margin-top: 1.5rem;
+  color: oklch(54.6% 0.245 262.881);
+  font-weight: 500;
+  text-underline-offset: 4px;
+}
+.not-found a:hover {
+  text-decoration-line: underline;
+}

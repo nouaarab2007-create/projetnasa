@@ -1,0 +1,128 @@
+region,status,event_day_rate,n_onsets,why
+p_-37.59_-062.71,ok,0.0512,11,
+p_-38.41_+145.63,ok,0.0234,8,
+p_-31.15_-063.18,ok,0.063,12,
+p_-28.09_-054.95,ok,0.0305,5,
+p_-28.93_+023.34,ok,0.0576,11,
+p_-29.61_+125.51,ok,0.2383,50,
+p_-27.69_+132.86,EXCLUDED,0.0081,2,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_-30.00_+146.22,ok,0.045,6,
+p_-20.06_-062.56,ok,0.0501,15,
+p_-21.59_-052.68,ok,0.1008,17,
+p_-18.50_-045.09,ok,0.0548,6,
+p_-20.07_+014.61,ok,0.2743,28,
+p_-18.11_+022.93,ok,0.049,11,
+p_-18.50_+044.11,ok,0.0222,6,
+p_-18.28_+124.62,ok,0.0579,17,
+p_-17.60_+137.37,ok,0.0845,19,
+p_-19.98_+146.27,ok,0.1116,18,
+p_-07.51_-075.75,ok,0.0608,13,
+p_-11.64_-065.54,ok,0.0597,8,
+p_-08.73_-055.30,ok,0.0277,5,
+p_-09.56_-046.86,ok,0.1786,21,
+p_-08.87_-036.10,ok,0.0368,10,
+p_-11.62_+015.87,ok,0.0572,9,
+p_-10.69_+024.15,ok,0.0357,8,
+p_-07.78_+033.50,ok,0.0541,5,
+p_-02.30_-076.53,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+02.23_-066.69,ok,0.091,9,
+p_+01.76_-053.39,EXCLUDED,0.0084,3,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_-00.37_+014.48,ok,0.0687,8,
+p_-01.49_+027.19,EXCLUDED,0.0134,3,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_-02.03_+032.52,ok,0.081,11,
+p_+00.66_+114.28,ok,0.0241,6,
+p_+11.44_-014.47,EXCLUDED,0.0036,1,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+08.46_-006.91,ok,0.0182,6,
+p_+10.03_+006.58,EXCLUDED,0.0133,2,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+08.59_+012.88,ok,0.1136,17,
+p_+10.26_+023.46,ok,0.1492,20,
+p_+07.84_+036.37,EXCLUDED,0.0182,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+10.62_+105.46,ok,0.0294,7,
+p_+10.23_+125.56,ok,0.081,7,
+p_+19.66_-014.94,ok,0.045,12,
+p_+18.47_-003.60,EXCLUDED,0.5276,31,event days > 40% of all days (suspicious)
+p_+21.84_+004.08,EXCLUDED,0.5719,28,event days > 40% of all days (suspicious)
+p_+20.04_+015.47,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+21.11_+023.24,EXCLUDED,0.611,7,event days > 40% of all days (suspicious)
+p_+18.90_+036.15,EXCLUDED,0.5584,36,event days > 40% of all days (suspicious)
+p_+20.34_+047.00,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+19.74_+054.53,ok,0.2376,22,
+p_+20.75_+073.82,ok,0.1207,23,
+p_+21.81_+083.85,ok,0.0697,13,
+p_+20.87_+095.34,EXCLUDED,0.0027,1,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+32.14_-105.14,ok,0.0802,19,
+p_+31.98_-095.20,ok,0.0433,9,
+p_+31.28_-085.07,ok,0.0271,9,
+p_+29.60_-005.61,EXCLUDED,0.4271,51,event days > 40% of all days (suspicious)
+p_+28.09_+004.63,EXCLUDED,0.5521,43,event days > 40% of all days (suspicious)
+p_+30.62_+014.39,EXCLUDED,0.4754,36,event days > 40% of all days (suspicious)
+p_+31.04_+023.65,ok,0.0376,7,
+p_+28.22_+036.24,EXCLUDED,0.8077,20,event days > 40% of all days (suspicious)
+p_+30.84_+044.65,ok,0.1641,28,
+p_+28.18_+055.82,EXCLUDED,0.501,49,event days > 40% of all days (suspicious)
+p_+31.25_+063.32,ok,0.2231,37,
+p_+30.95_+074.28,ok,0.0237,8,
+p_+32.08_+086.26,ok,0.0611,8,
+p_+28.87_+097.19,ok,0.0234,5,
+p_+27.63_+103.42,ok,0.0531,7,
+p_+28.71_+116.16,EXCLUDED,0.0289,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+42.35_-117.14,ok,0.0564,14,
+p_+41.41_-105.12,ok,0.02,6,
+p_+38.15_-095.67,EXCLUDED,0.0189,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+39.40_-086.28,ok,0.0778,6,
+p_+38.97_-075.40,ok,0.0595,10,
+p_+41.13_-005.12,ok,0.0155,5,
+p_+41.95_+025.05,ok,0.0177,5,
+p_+38.27_+033.63,ok,0.1342,26,
+p_+39.77_+046.76,ok,0.0472,11,
+p_+40.75_+053.87,ok,0.111,22,
+p_+41.28_+064.68,ok,0.0802,19,
+p_+42.41_+074.64,EXCLUDED,0.0196,3,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+41.69_+082.57,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+41.09_+094.49,EXCLUDED,0.7895,48,event days > 40% of all days (suspicious)
+p_+40.00_+103.49,ok,0.0394,9,
+p_+42.15_+113.50,EXCLUDED,0.01,2,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+40.31_+125.49,EXCLUDED,0.0146,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+51.45_-125.18,ok,0.072,7,
+p_+51.15_-114.67,ok,0.0865,20,
+p_+52.39_-105.40,ok,0.0219,5,
+p_+52.44_-095.42,ok,0.0928,15,
+p_+48.41_-083.59,EXCLUDED,0.009,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+48.86_-074.67,EXCLUDED,0.0051,1,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+50.73_-066.50,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+48.18_-003.76,ok,0.0168,5,
+p_+49.85_+004.13,EXCLUDED,0.0045,1,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+51.17_+016.73,ok,0.0437,10,
+p_+49.11_+023.27,EXCLUDED,0.0025,1,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+52.46_+037.10,ok,0.0383,6,
+p_+48.95_+046.57,ok,0.0374,9,
+p_+47.95_+057.06,ok,0.0665,20,
+p_+51.37_+063.48,ok,0.1528,15,
+p_+48.98_+075.48,ok,0.0326,12,
+p_+49.28_+086.18,EXCLUDED,0.004,2,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+50.46_+093.54,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+50.55_+102.57,EXCLUDED,0.0138,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+48.06_+113.31,EXCLUDED,0.0084,2,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+49.27_+122.56,EXCLUDED,0.0524,3,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+52.15_+133.70,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+58.56_-155.45,ok,0.0371,6,
+p_+61.79_-134.40,EXCLUDED,0.0048,1,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+58.47_-124.06,ok,0.0693,10,
+p_+61.29_-117.12,ok,0.0639,6,
+p_+59.40_-105.87,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+62.46_-077.42,EXCLUDED,0.0611,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+58.15_-006.87,ok,0.0664,14,
+p_+61.60_+016.98,ok,0.0413,5,
+p_+58.40_+036.36,EXCLUDED,0.0,0,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+57.58_+045.32,EXCLUDED,0.0082,1,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+58.46_+056.33,EXCLUDED,0.0667,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+59.90_+065.25,EXCLUDED,0.092,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+58.97_+074.78,EXCLUDED,0.0126,1,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+57.73_+086.55,EXCLUDED,0.0099,2,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+62.04_+096.26,ok,0.0322,9,
+p_+59.98_+106.72,EXCLUDED,0.0524,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+57.52_+115.83,EXCLUDED,0.117,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+61.34_+124.13,ok,0.1261,6,
+p_+61.78_+132.50,ok,0.165,8,
+p_+60.66_+144.01,EXCLUDED,0.0478,4,fewer than 5 flash-drought onsets in 20 years (desert / always wet / frozen)
+p_+60.64_+153.76,ok,0.1131,14,
